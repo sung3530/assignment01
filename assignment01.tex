@@ -1,8 +1,83 @@
- \documentclass{report}
- \author{이성호}
- \title{how to use the utility git}
- \begin{document}
- \maketitle
- Github 사용법은 일단 설치하고 회원가입을 합니다.
+\documentclass[11pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{kotex}
+\author{이성호}
+\title{GitHub Guides}
+\begin{document}
+\maketitle
+\chapter{Create ID}
+\textsl{Git Hub}를 이용하기에 앞서 먼저 회원가입을 진행합니다.
+\chapter{Create a Repository}
+A repository is usually used to organize a single project. Repositories can contain folders and files, images, videos, spreadsheets, and data sets – anything your project needs. We recommend including a \textsl{README}, or a file with information about your project. GitHub makes it easy to add one at the same time you create your new repository. \textsl{It also offers other common options such as a license file.}
+\newline
+\newline Your \textsl{hello-world} repository can be a place where you store ideas, resources, or even share and discuss things with others.
+\newline
+\newline \textbf {\LARGE To create a new repository}
+\newline
+\newline \small 1. In the upper right corner, next to your avatar or identicon, click  and then select New repository.
+\newline
+\newline 2. Name your repository \textsl{hello-world.}
+\newline
+\newline 3. Write a short description.
+\newline
+\newline 4. Select Initialize this repository with a README.
 
+\chapter{Create a Branch}
+Branching is the way to work on different versions of a repository at one time.
+\newline
+\newline By default your repository has one branch named master which is considered to be the definitive branch. We use branches to experiment and make edits before committing them to master.
+\newline
+\newline When you create a branch off the master branch, you’re making a copy, or snapshot, of master as it was at that point in time. If someone else made changes to the master branch while you were working on your branch, you could pull in those updates.
+\newline
+\newline \textbf {\LARGE To create a new branch}
+\newline
+\newline \small 1. Go to your new repository hello-world.
+\newline
+\newline 2. Click the drop down at the top of the file list that says branch: master.
+\newline
+\newline 3. Type a branch name, readme-edits, into the new branch text box.
+\newline
+\newline 4. Select the blue Create branch box or hit “Enter” on your keyboard.
+
+\chapter{Make and commit changes}
+Bravo! Now, you’re on the code view for your readme-edits branch, which is a copy of master. Let’s make some edits.
+\newline
+\newline On GitHub, saved changes are called commits. Each commit has an associated commit message, which is a description explaining why a particular change was made. Commit messages capture the history of your changes, so other contributors can understand what you’ve done and why.
+\newline
+\newline \textbf {\LARGE Make and commit changes}
+\newline
+\newline \small 1. Click the README.md file.
+\newline
+\newline 2. Click the  pencil icon in the upper right corner of the file view to edit.
+\newline
+\newline 3. In the editor, write a bit about yourself.
+\newline
+\newline 4. Write a commit message that describes your changes.
+\newline
+\newline 5. Click Commit changes button.
+
+\chapter{Open a Pull Request}
+Nice edits! Now that you have changes in a branch off of master, you can open a pull request.
+\newline
+\newline Pull Requests are the heart of collaboration on GitHub. When you open a pull request, you’re proposing your changes and requesting that someone review and pull in your contribution and merge them into their branch. Pull requests show diffs, or differences, of the content from both branches. The changes, additions, and subtractions are shown in green and red.
+\newline
+\newline As soon as you make a commit, you can open a pull request and start a discussion, even before the code is finished.
+\newline
+\newline By using GitHub’s @mention system in your pull request message, you can ask for feedback from specific people or teams, whether they’re down the hall or 10 time zones away.
+\newline
+\newline You can even open pull requests in your own repository and merge them yourself. It’s a great way to learn the GitHub flow before working on larger projects.
+\newline
+\newline Open a Pull Request for changes to the README
+
+\chapter{Merge your Pull Request}
+In this final step, it’s time to bring your changes together – merging your readme-edits branch into the master branch.
+\newline
+\newline
+\newline 1. Click the green Merge pull request button to merge the changes into master.
+\newline
+\newline 2. Click Confirm merge.
+\newline
+\newline 3. Go ahead and delete the branch, since its changes have been incorporated, with the Delete branch button in the purple box.
+
+\ldots{}ends
 \end{document}
